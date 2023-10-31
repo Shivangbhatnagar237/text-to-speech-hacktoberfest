@@ -23,6 +23,7 @@ header {
     flex-direction: row;
     justify-content:space-between;
     height: 100%;
+    padding: 0 10em;
 }
 .header-btn {
     justify-content: right;
@@ -44,6 +45,27 @@ header {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.logo .logo-image {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image img {
+    height: 60%;
+    object-fit: cover;
+}
+
 .title{
     font-size: 2rem;
     margin:20px 50px;
@@ -159,13 +181,7 @@ input[type="range"]:focus::-webkit-slider-range-track {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-img {
-    height: 80px;
-    width:80px;
-    margin: 20px;
-    border-radius: 50%;
 
-}
 .contribute {
     flex-direction: column;
     text-align: center;
